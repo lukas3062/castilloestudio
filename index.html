@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StudioCastillo</title>
+    <!-- bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- ion-icons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- our-own-styles -->
+	<link rel="stylesheet" href="css/style.css">
+  <link href='css/imagenes/icono.jpg' rel='shortcut icon' type='image/png'>
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nova+Slim" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+	<!-- Soporte para IE 9 e inf. -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+  </head>
+  <body>
+    <div class="loader"></div>
+    <article id="banner">
+      <div class="container">
+        <img src="css/imagenes/logo.png" alt="">
+        <div class="centro"id="none1">
+          <h5 class="animated bounceInRight">Tenemos la solución a tu sueño!</h5>
+          <h5 class="animated bounceInRight font">Tu casa en cuotas !!</h5>
+        </div>
+      </div>
+    </article>
+    <article id="somos">
+      <div class="title">
+        <h1>QUIENES SOMOS</h1>
+        <span class="ion-help no-rotate"></span>
+        <span class="ion-help no-rotate"></span>
+      </div>
+      <div class="container backcolor">
+        <p>Somos una empresa de ASESORAMIENTO EN NEGOCIOS INMOBILIARIO, PROYECTO, DIRECCIÓN y CONSTRUCCIÓN
+          cuidadosamente preparada y basada en  técnicas  que se usan actualmente.</p>
+        <h5>Contamos con asesores y profesionales que trabajan en los distintos campos :</h5>
+        <div class="row">
+          <div class="col-lg-5">
+            <ul class="izq">
+              <li>Escribanos.</li>
+              <li>Abogados.</li>
+              <li>Ingenieros.</li>
+              <li>Arquitectos.</li>
+              <li>Maestro mayor de obra.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 mitad">
+            <ul>
+              <li>Diseñadores espacio interior.</li>
+              <li>Diseñadores  espacio exterior.</li>
+              <li>Técnicos ambiental.</li>
+              <li>Técnicos en seguridad e higiene.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article id="fly">
+      <div class="oculto question">
+        <button type="button" class="btn btn-danger" id="closeform">X</button>
+        <form class="" action="enviar.php" method="post">
+          <p><b>Tu nombre:</b></p>
+          <input type="text" name="nombre" class="form-control" placeholder="nombre" required>
+          <p><b>Tu Email:</b></p>
+          <input type="email" name="correo" class="form-control" placeholder="correo" required>
+          <p><b>Tu consulta:</b></p>
+          <textarea name="mensaje" rows="7" cols="80" class="area form-control" placeholder="escriba su mensaje" required></textarea>
+          <button type="submit" value="enviar" class="btn btn-success" id="send">enviar</button>
+        </form>
+      </div>
+      <button type="button" class="btn btn-primary" id="form">PREGUNTANOS</button>
+    </article>
+    <article id="servicios">
+      <div class="titulo2">
+        <h1>SERVICIOS</h1>
+      </div>
+      <div class="row titulo3">
+        <div class="col-lg-3 A" id="A">
+          <div id="black">
+            <h1>TU CASA EN CUOTAS</h1>
+          </div>
+        </div>
+        <div class="col-lg-3 B" id="B">
+          <div id="black">
+            <h1>PROYECTOS Y DIRECCIÓN</h1>
+          </div>
+        </div>
+        <div class="col-lg-3 C" id="C">
+          <div id="black">
+            <h1>CONSTRUCCIÓN</h1>
+          </div>
+        </div>
+        <div class="col-lg-3 D" id="D">
+          <div id="black">
+            <h1>MANTENIMIENTO</h1>
+          </div>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="titulo4">
+          <h1>SERVICIOS</h1>
+        </div>
+        <div class="containerservicios">
+          <div class="row">
+            <div class="col-12 AA" id="A">
+              <div id="black">
+                <h1>TU CASA EN CUOTAS</h1>
+              </div>
+            </div>
+            <div class="col-12 BB" id="B">
+              <div id="black">
+                <h1>PROYECTOS Y DIRECCIÓN</h1>
+              </div>
+            </div>
+            <div class="col-xs-6 CC" id="C">
+              <div id="black2">
+                <h1>CONSTRUCCIÓN</h1>
+              </div>
+            </div>
+            <div class="col-xs-6 DD" id="D">
+              <div id="black2">
+                <h1>MANTENIMIENTO</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="oculto" id="negocios">
+        <div class="title" id="baba2">
+          <span class="ion-cash rotate"></span>
+          <span class="ion-ios-home rotate"></span>
+          <h6>Obtene tu casa en cuotas</h6>
+          <span class="ion-ios-home no-rotate"></span>
+          <span class="ion-cash no-rotate"></span>
+        </div>
+        <div class="container3" id="container4">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img src="css/imagenes/inmobiliario.jpg" id="imagen1">
+            <img src="css/imagenes/fin1.jpg" id="imagen1" class="img2">
+          </div>
+          <div class="col-lg-6 col-sm-12 centro1">
+            <div class="cont">
+               <p>Asesoramos en forma segura y gratuita a pequeños y medianos inversores
+               que deseen mejorar su capital o simplemente mantener la liquidez de manera segura.<br>
+                Financiación propia sin ningun tipo de banco de por medio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="imagenes1">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="css/imagenes/smn1.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="item">
+                <img src="css/imagenes/inver1.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="item">
+                <img src="css/imagenes/smn2.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="item">
+                <img src="css/imagenes/smn3.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="item">
+                <img src="css/imagenes/smn4.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
+              <div class="item">
+                <img src="css/imagenes/smn5.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left ion-android-arrow-dropleft-circle" aria-hidden="true"></span>
+              <ion-icon name="arrow-dropleft-circle"></ion-icon>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right ion-android-arrow-dropright-circle" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+       </div>
+      </div>
+
+      <div class="oculto" id="proyectos">
+        <div class="title" id="baba2">
+          <span class="ion-edit rotate"></span>
+          <span class="ion-clipboard rotate"></span>
+          <h6>Proyectos y Dirección</h6>
+          <span class="ion-clipboard no-rotate"></span>
+          <span class="ion-edit no-rotate"></span>
+        </div>
+        <div class="container3" id="container3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6  img3">
+            <img src="css/imagenes/proyecto1.jpg" id="imagen2">
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-6 img4">
+            <img src="css/imagenes/proyecto3.jpg" id="imagen2">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 img44">
+            <img src="css/imagenes/proyecto2.jpg" id="imagen2">
+          </div>
+        </div>
+        <div class="text1">
+          <p class="textpro">Realizamos todo tipo de proyectos,
+            cabañas de fin de semana, casas multifamilares, complejos de vivienda,
+            hoteles, diseños interiores, con profesionales matriculados en la provincia.</p>
+        </div>
+        <div class="text2">
+          <ul>
+            <li>croquis preliminares.</li>
+            <li>Anteproyectos.</li>
+            <li>Renders, maquetas, animaciones.</li>
+            <li>Plano de demolición.</li>
+            <li>Presentación municipal.</li>
+            <li>Informes ambientales.</li>
+            <li>instalaciones, Agua, Gas, Cloacal y Eléctrica.</li>
+            <li>Cálculos estructurales.</li>
+            <li>Replanteo y movimiento de suelo.</li>
+          </ul>
+        </div>
+        <div class="ejemplos-pro">
+          <div class="row primero">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img src="css/imagenes/proejem1.jpg">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <p>Vivenda en dos plantas 88 m2 en Junin de los Andes, Neuquen</p>
+            </div>
+          </div>
+          <div class="row segundo">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img class="img5" src="css/imagenes/proejem2.jpg">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img class="img5" src="css/imagenes/proejem3.jpg">
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <h1>Cabaña de fin de semana de 70 m2 en Junin de los Andes. Neuquen</h1>
+            </div>
+          </div>
+          <div class="row segundo">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="css/imagenes/proejem4.jpg">
+              <p class="pp">Casa multifamiliar de 200 m2 en san martin de los andes. Neuquen </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="css/imagenes/proejem5.jpg">
+              <p class="pp">Casa para una persona 30m2, junin de los andes, neuquen</p>
+            </div>
+          </div>
+          <div class="row segundo">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img src="css/imagenes/proejem7.jpg">
+              <p class="pp"> Complejo de cabañas alpina de 52m2 en lago huechulafquen, Neuquen</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 oculto1">
+              <img src="css/imagenes/proejem8.jpg">
+              <p class="pp">Casas pequeñas de 45 m2 en junin de los andes, neuquen</p>
+            </div>
+          </div>
+          <div class="row tercero">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img src="css/imagenes/proejem6.jpg">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img src="css/imagenes/proejem9.jpg">
+            </div>
+          </div>
+          <h2 class="tercero1">Complejo de cabañas en san martin de los andes, Neuquen.</h2>
+          <div class="row cuarto">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img src="css/imagenes/proejem10.jpg">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img src="css/imagenes/proejem11.jpg">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="oculto" id="direccion">
+        <div class="title" id="baba2">
+          <span class="ion-hammer rotate"></span>
+          <span class="ion-wrench rotate"></span>
+          <h6>Construcciones Realizadas</h6>
+          <span class="ion-wrench no-rotate"></span>
+          <span class="ion-hammer no-rotate"></span>
+        </div>
+        <div class="container3" id="container5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+                <img src="css/imagenes/cons1.jpg" id="imagen1">
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <div class="cont">
+                   <p>Realizamos todo tipo de construcción, con diferentes sistemas de contratación,
+                     ya sea por ajuste alzado, por coste y costa o por unidad de medida.</p>
+                </div>
+              </div>
+            </div>
+            <div class="fondo2">
+              <h3>Estamos capacitados para realizar:</h3>
+            </div>
+            <div class="row color1">
+              <div class="col-lg-6">
+                <ul class="ul1">
+                  <li>Cabañas en tronco.</li>
+                  <li>Cabañas en piedra y madera.</li>
+                  <li>Cabañas solo en madera.</li>
+                  <li>Cabañas en ladrillo visto.</li>
+                  <li>Cabañas con estructura de ladrillo y hormigón.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 top1">
+                <ul class="ul2">
+                  <li>Depósitos.</li>
+                  <li>Locales comerciales.</li>
+                  <li>Casas en estancias.</li>
+                  <li>Casas multifamiliares.</li>
+                  <li>Obras civiles.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <div class="fondo3">
+              <h3>Casa en el lago huechulafquen, Neuquen:</h3>
+            </div>
+            <div class="row cabaña">
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa1.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa2.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa3.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa4.jpg" alt="">
+              </div>
+            </div>
+            <div class="fondo3">
+              <h3>Cabaña en san Martin de los andes, Neuquen:</h3>
+            </div>
+            <div class="row cabaña">
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/cabana1.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/cabana2.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/cabana3.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/cabana4.jpg" alt="">
+              </div>
+            </div>
+            <div class="fondo3">
+              <h3>Casa de 90 m2 Boca del lago Huechulafquen, Neuquen:</h3>
+            </div>
+            <div class="row cabaña">
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa5.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa6.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa7.jpg" alt="">
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <img src="css/imagenes/casa8.jpg" alt="">
+              </div>
+            </div>
+            <div class="row junin">
+              <div class="col-lg-4 col-sm-12">
+                <div class="fondo3 fondo4">
+                  <h3>Casa en Junin de los Andes, Neuquen:</h3>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <img src="css/imagenes/junin.jpg" alt="">
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="oculto" id="construccion">
+        <div class="title" id="baba2">
+          <span class="ion-paintbucket rotate"></span>
+          <span class="ion-paintbrush rotate"></span>
+          <h6>Mantenimientos</h6>
+          <span class="ion-paintbrush no-rotate"></span>
+          <span class="ion-paintbucket no-rotate"></span>
+        </div>
+        <div class="container3" id="container6">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+                <img src="css/imagenes/reforma.jpg" id="imagen1">
+                <img src="css/imagenes/reforma2.jpg" id="imagen3">
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <div class="cont">
+                   <p>Realizamos el mantenimiento integral de la vivienda, mediante un informe técnico,
+                     indicando el estado del bien inmueble.
+                     Contamos con:<br>
+                     - Ingenieros.<br>
+                     - Arquitectos.<br>
+                     - Maestro mayor de obras.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mante">
+            <div class="col-lg-5 col-sm-12">
+              <img src="css/imagenes/man1.jpg" alt="">
+            </div>
+            <div class="col-lg-5 col-sm-12">
+              <img src="css/imagenes/man2.jpg" alt="">
+            </div>
+            <div class="col-lg-2">
+            </div>
+          </div>
+          <div class="row mante">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-5 col-sm-12">
+              <img src="css/imagenes/man3.jpg" alt="">
+            </div>
+            <div class="col-lg-5 col-sm-12">
+              <img src="css/imagenes/man4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer id="contact-chico">
+      <div class="barra"></div>
+      <div class="contact1"><p>NUESTRA OFICINA</p></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2079.3289041273792!2d-71.28965983557974!3d-40.13795437196988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110c0097bb1611%3A0x3ceccd925717e71d!2sChimehu%C3%ADn+55%2C+San+Martin+de+los+Andes%2C+Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1537708558831" id="maps2" allowfullscreen></iframe>
+      <div class="contact">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="sep">
+            <h3><p>LOCALIDAD:</p> Chimehuin 55 (Parque industrial Junin De Los Andes)</h3>
+            <h3><p>E-MAIL:</p> castillostudio@gmail.com</h3>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="sep">
+              <h3><p>CELULAR-1:</p>   (02972) 1547-0363</h3>
+              <h3><p>CELULAR-2:</p>   (011) 15-5057-8232</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="reff"><a href="https://creamostuidea.com.ar" target="_blank" class="pag"><p>create by www.creamostuidea.com.ar</p></a>
+    </footer>
+    <article class="barra2">
+    </article>
+    <!-- librería-jQuery -->
+    	<script src="js/jquery-1.12.3.min.js"></script>
+    	<!-- js-de-bootstrap -->
+    	<script src="js/bootstrap.min.js"></script>
+    	<!-- Animate-Scroll -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    	<!-- Custom-Scripts -->
+    	<script src="js/my-scripts.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/jquery.gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+      <script src="js/scroll.js"></script>
+  </body>
+</html>
